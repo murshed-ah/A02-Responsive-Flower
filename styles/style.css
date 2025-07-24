@@ -1,0 +1,84 @@
+/* FONTS */
+.noto{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+/* NAV_BAR */
+nav{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.l-to-hide a, .cart a{
+    text-decoration: none;
+    color: #8987A1;
+}
+
+#bold{
+    font-weight: 700;
+    color: black;
+ }
+ #cartb{
+    color: black;
+ }
+
+
+
+ /* BANNER */
+ .banner{
+    max-width: 1140px;
+    max-height: 461px;
+    margin: 0 auto;
+    display: flex;
+    
+ }
+
+ .about-ban{
+    align-content: end;
+}
+
+.about-ban h1{
+    font-size: 4rem;
+}
+
+
+
+
+
+ /* media Query */
+ @media screen and (max-width: 576px) {
+    .l-to-hide{
+        display: none ;
+    }
+    .brand-logo img{
+    width: 63px;
+    height: 38px;
+    }
+    nav{
+        margin: 20px;
+    }
+ }
+  
