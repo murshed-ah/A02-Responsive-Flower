@@ -171,13 +171,14 @@ nav{
  /* deals */
 .deals{
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 120px auto;
     text-align: center;
+    
 }
 
 .deal-tit{
     font-size: 3.1rem;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
 }
 
 .deal-des{
@@ -259,7 +260,7 @@ nav{
     position: absolute;
     top: 50%;
     right: 50%;
-    transform: translate(50%, -50%);
+    transform: translate(50%, -65%);
     text-align: center;
 }
 .text-field h2{
@@ -281,7 +282,39 @@ nav{
 #label{
     display: flex;
 }
- 
+
+footer{
+    max-width: 1140px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-1 li, .list-2 li{
+    list-style: none;
+}
+.list-1 a, .list-2 a{
+    text-decoration: none;
+    color: #00000083;
+    flex-direction: column;
+    
+}
+
+.list-1 ul, .list-2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+    
+.socials-icon img{
+    margin-right: 30px;   
+}
+
+
+
+.shop-end p{
+    color: #00000083;
+}
 
  /* media Query */
  @media screen and (max-width: 576px) {
@@ -372,10 +405,11 @@ nav{
     width: 100%;
    }
 
-   .pic-text3{
-    font-size: small;
-    
+   .two img{
+    width: 100%;
    }
+
+  
 
    .pic-text3 a{
     font-size: 1rem;
@@ -390,7 +424,39 @@ nav{
     font-size: 1rem;
 }
 
-.seond-banner{
+.seond-banner img{
     width: 100%; 
 
 }
+
+.pic-text2{
+    top: 350px;
+}
+
+.eml{
+    padding: 7px 40px 7px 20px;
+}
+
+.subscribe{
+    padding: 7px 12px;
+}
+
+.text-field h2{
+    font-size: 1.2rem;
+    
+
+}
+
+footer{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+.list-1 ul, .list-2 ul{
+    margin-left: -40px;
+}
+
+
+ }
