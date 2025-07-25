@@ -103,6 +103,9 @@ nav{
 }
 
 
+
+
+
 /* card-section */
 .card-section{
     max-width: 1140px;
@@ -165,6 +168,8 @@ nav{
 }
 
 
+/* lover */
+
 .love{
     max-width: 1140px;
     align-items: center;
@@ -180,6 +185,10 @@ nav{
     font-size: 1.4rem;
     color: #00000083;
  }
+
+
+
+
 
  /* deals */
 .deals{
@@ -199,6 +208,14 @@ nav{
     font-size: 1.5rem;
     color: #00000083;
 }
+
+
+
+
+
+/* hard part */
+
+
 
 .zabo{
     max-width: 1140px;
@@ -262,6 +279,10 @@ nav{
     text-align: center;
 }
 
+
+/* Join the colorful Bunch */
+
+
 .seond-banner{
     
     max-width: 1440px;
@@ -296,6 +317,8 @@ nav{
     display: flex;
 }
 
+
+/* footer */
 footer{
     max-width: 1140px;
     margin: 50px auto;
@@ -318,10 +341,17 @@ footer{
     flex-direction: column;
     gap: 20px;
 }
+
+
     
 .socials-icon img{
-    margin-right: 30px;   
+    margin-right: 30px;  
+    height: 36px;
+    align-items: center;
+    justify-content: center; 
 }
+
+
 
 
 
@@ -393,7 +423,7 @@ footer{
    }
    
    .lover-des{
-    font-size: 1.7rem;
+    font-size: 2rem;
     
    }
 
@@ -403,15 +433,28 @@ footer{
    }
 
    .lover-list{
-    font-size: 0.9rem;
+    font-size: 1rem;
    }
 
+   .deals{
+    
+    margin: 50px auto;
+   }
    .zabo{
     flex-direction: column;
     
    }
 
-  
+   .deal-tit{
+    font-size: 1.7rem;
+   
+}
+
+.deal-des{
+   
+    font-size: 1rem;
+    
+}
 
    
    .one img{
@@ -437,6 +480,9 @@ footer{
     font-size: 1rem;
 }
 
+.seond-banner{
+    margin: 50px auto;
+}
 .seond-banner img{
     width: 100%; 
 
